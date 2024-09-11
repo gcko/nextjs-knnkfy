@@ -1,6 +1,6 @@
 'use client';
 import { Dropdown } from 'primereact/dropdown';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export default function Home() {
   const lang = [
