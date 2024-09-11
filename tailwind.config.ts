@@ -2,6 +2,7 @@ import { join } from 'path';
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: 'selector',
   content: [
     join(
       __dirname,
